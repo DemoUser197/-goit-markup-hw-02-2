@@ -1,0 +1,45 @@
+:root {
+
+--white: #FFFFFF;
+--crey: #757575;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: var(--crey);
+
+  background-color: var(--white);
+}
+
+.title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+.list {
+  list-style: none;
+}
+.links {
+  text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+
+}
