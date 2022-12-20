@@ -2,6 +2,7 @@
 
 --white: #FFFFFF;
 --crey: #757575;
+--black: #2F303A;
 }
 
 body {
@@ -31,15 +32,60 @@ color: #212121;
 .list {
   list-style: none;
 }
+
 .links {
-  text-decoration: none;
+font-family: 'Roboto';
+text-decoration: none;
+font-size: 16px;
+line-height: 1.14;
+font-weight: 500;
+color:#212121
+}
+
+
+.links:hover {
+text-decoration: none;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
-line-height: 16px;
+font-size: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: #212121;
+color:#2196F3
+}
 
+.logo {
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #212121;
+}
+
+.accent {
+color: #2196F3
+}
+
+.text {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+
+.text-next {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+
+.footer {
+  background-color: var(--black);
 }
